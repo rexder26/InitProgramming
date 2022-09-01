@@ -104,5 +104,263 @@ u3UH
 [!] Bad flag!
 [*] G00d flag!
 ```
+## > Also Tried to Decompile The Code of the 'cm_rb_easy'
+```c++
+undefined8 main(int param_1,long param_2)
 
+{
+  char cVar1;
+  char cVar2;
+  size_t sVar3;
+  long in_FS_OFFSET;
+  int local_9c;
+  int local_98;
+  int local_94;
+  int local_90;
+  char local_88 [104];
+  long local_20;
+  
+  local_20 = *(long *)(in_FS_OFFSET + 0x28);
+  if (param_1 < 2) {
+    puts("[!] Usage: ./cmRubiks flag");
+  }
+  else {
+    sVar3 = strlen(*(char **)(param_2 + 8));
+    if (sVar3 < 100) {
+      strcpy(local_88,*(char **)(param_2 + 8));
+      for (local_9c = 0; sVar3 = strlen(local_88), (ulong)(long)local_9c < sVar3;
+          local_9c = local_9c + 1) {
+        switch(local_88[local_9c]) {
+        case 'B':
+          cVar1 = DAT_00104048;
+          cVar2 = DAT_00104049;
+          DAT_00104049 = DAT_0010405f;
+          DAT_00104048 = DAT_0010405d;
+          DAT_0010405d = DAT_00104057;
+          DAT_0010405f = DAT_00104056;
+          DAT_00104057 = DAT_0010405a;
+          DAT_00104056 = DAT_00104058;
+          DAT_00104058 = cVar2;
+          DAT_0010405a = cVar1;
+          FUN_00101169(&DAT_0010404c);
+          break;
+        case 'D':
+          cVar1 = DAT_00104052;
+          cVar2 = DAT_00104053;
+          DAT_00104052 = DAT_0010405a;
+          DAT_00104053 = DAT_0010405b;
+          DAT_0010405a = DAT_0010404e;
+          DAT_0010405b = DAT_0010404f;
+          DAT_0010404f = DAT_0010405f;
+          DAT_0010404e = DAT_0010405e;
+          DAT_0010405e = cVar1;
+          DAT_0010405f = cVar2;
+          FUN_00101169(&DAT_00104054);
+          break;
+        case 'F':
+          cVar1 = DAT_0010404a;
+          cVar2 = DAT_0010404b;
+          DAT_0010404b = DAT_00104059;
+          DAT_0010404a = DAT_0010405b;
+          DAT_00104059 = DAT_00104054;
+          DAT_0010405b = DAT_00104055;
+          DAT_00104054 = DAT_0010405e;
+          DAT_00104055 = DAT_0010405c;
+          DAT_0010405c = cVar1;
+          DAT_0010405e = cVar2;
+          FUN_00101169(&DAT_00104050);
+          break;
+        case 'L':
+          cVar1 = DAT_00104050;
+          cVar2 = DAT_00104052;
+          DAT_00104050 = DAT_00104048;
+          DAT_00104052 = DAT_0010404a;
+          DAT_00104048 = DAT_0010404f;
+          DAT_0010404a = DAT_0010404d;
+          DAT_0010404f = DAT_00104054;
+          DAT_0010404d = DAT_00104056;
+          DAT_00104054 = cVar1;
+          DAT_00104056 = cVar2;
+          FUN_00101169(&DAT_00104058);
+          break;
+        case 'R':
+          cVar1 = DAT_00104049;
+          cVar2 = DAT_0010404b;
+          DAT_0010404b = DAT_00104053;
+          DAT_00104049 = DAT_00104051;
+          DAT_00104051 = DAT_00104055;
+          DAT_00104053 = DAT_00104057;
+          DAT_00104057 = DAT_0010404c;
+          DAT_00104055 = DAT_0010404e;
+          DAT_0010404c = cVar2;
+          DAT_0010404e = cVar1;
+          FUN_00101169(&DAT_0010405c);
+          break;
+        case 'U':
+          cVar1 = DAT_00104050;
+          cVar2 = DAT_00104051;
+          DAT_00104050 = DAT_0010405c;
+          DAT_00104051 = DAT_0010405d;
+          DAT_0010405c = DAT_0010404c;
+          DAT_0010405d = DAT_0010404d;
+          DAT_0010404c = DAT_00104058;
+          DAT_0010404d = DAT_00104059;
+          DAT_00104058 = cVar1;
+          DAT_00104059 = cVar2;
+          FUN_00101169(&DAT_00104048);
+          break;
+        case 'b':
+          for (local_98 = 0; local_98 < 3; local_98 = local_98 + 1) {
+            cVar1 = DAT_00104048;
+            cVar2 = DAT_00104049;
+            DAT_00104049 = DAT_0010405f;
+            DAT_00104048 = DAT_0010405d;
+            DAT_0010405d = DAT_00104057;
+            DAT_0010405f = DAT_00104056;
+            DAT_00104057 = DAT_0010405a;
+            DAT_00104056 = DAT_00104058;
+            DAT_00104058 = cVar2;
+            DAT_0010405a = cVar1;
+            FUN_00101169(&DAT_0010404c);
+          }
+          break;
+        case 'd':
+          for (local_98 = 0; local_98 < 3; local_98 = local_98 + 1) {
+            cVar1 = DAT_00104052;
+            cVar2 = DAT_00104053;
+            DAT_00104052 = DAT_0010405a;
+            DAT_00104053 = DAT_0010405b;
+            DAT_0010405a = DAT_0010404e;
+            DAT_0010405b = DAT_0010404f;
+            DAT_0010404f = DAT_0010405f;
+            DAT_0010404e = DAT_0010405e;
+            DAT_0010405e = cVar1;
+            DAT_0010405f = cVar2;
+            FUN_00101169(&DAT_00104054);
+          }
+          break;
+        case 'f':
+          for (local_98 = 0; local_98 < 3; local_98 = local_98 + 1) {
+            cVar1 = DAT_0010404a;
+            cVar2 = DAT_0010404b;
+            DAT_0010404b = DAT_00104059;
+            DAT_0010404a = DAT_0010405b;
+            DAT_00104059 = DAT_00104054;
+            DAT_0010405b = DAT_00104055;
+            DAT_00104054 = DAT_0010405e;
+            DAT_00104055 = DAT_0010405c;
+            DAT_0010405c = cVar1;
+            DAT_0010405e = cVar2;
+            FUN_00101169(&DAT_00104050);
+          }
+          break;
+        case 'l':
+          for (local_98 = 0; local_98 < 3; local_98 = local_98 + 1) {
+            cVar1 = DAT_00104050;
+            cVar2 = DAT_00104052;
+            DAT_00104050 = DAT_00104048;
+            DAT_00104052 = DAT_0010404a;
+            DAT_00104048 = DAT_0010404f;
+            DAT_0010404a = DAT_0010404d;
+            DAT_0010404f = DAT_00104054;
+            DAT_0010404d = DAT_00104056;
+            DAT_00104054 = cVar1;
+            DAT_00104056 = cVar2;
+            FUN_00101169(&DAT_00104058);
+          }
+          break;
+        case 'r':
+          for (local_98 = 0; local_98 < 3; local_98 = local_98 + 1) {
+            cVar1 = DAT_00104049;
+            cVar2 = DAT_0010404b;
+            DAT_0010404b = DAT_00104053;
+            DAT_00104049 = DAT_00104051;
+            DAT_00104051 = DAT_00104055;
+            DAT_00104053 = DAT_00104057;
+            DAT_00104057 = DAT_0010404c;
+            DAT_00104055 = DAT_0010404e;
+            DAT_0010404c = cVar2;
+            DAT_0010404e = cVar1;
+            FUN_00101169(&DAT_0010405c);
+          }
+          break;
+        case 'u':
+          for (local_98 = 0; local_98 < 3; local_98 = local_98 + 1) {
+            cVar1 = DAT_00104050;
+            cVar2 = DAT_00104051;
+            DAT_00104050 = DAT_0010405c;
+            DAT_00104051 = DAT_0010405d;
+            DAT_0010405c = DAT_0010404c;
+            DAT_0010405d = DAT_0010404d;
+            DAT_0010404c = DAT_00104058;
+            DAT_0010404d = DAT_00104059;
+            DAT_00104058 = cVar1;
+            DAT_00104059 = cVar2;
+            FUN_00101169(&DAT_00104048);
+          }
+        }
+      }
+      for (local_94 = 0; local_94 < 2; local_94 = local_94 + 1) {
+        for (local_90 = 0; local_90 < 2; local_90 = local_90 + 1) {
+          if (DAT_00104050 != (&DAT_00104050)[(long)local_94 * 2 + (long)local_90]) {
+            puts("[!] Bad flag!");
+            goto LAB_00101e88;
+          }
+        }
+      }
+      for (local_94 = 0; local_94 < 2; local_94 = local_94 + 1) {
+        for (local_90 = 0; local_90 < 2; local_90 = local_90 + 1) {
+          if (DAT_00104048 != (&DAT_00104048)[(long)local_94 * 2 + (long)local_90]) {
+            puts("[!] Bad flag!");
+            goto LAB_00101e88;
+          }
+        }
+      }
+      for (local_94 = 0; local_94 < 2; local_94 = local_94 + 1) {
+        for (local_90 = 0; local_90 < 2; local_90 = local_90 + 1) {
+          if (DAT_0010404c != (&DAT_0010404c)[(long)local_94 * 2 + (long)local_90]) {
+            puts("[!] Bad flag!");
+            goto LAB_00101e88;
+          }
+        }
+      }
+      for (local_94 = 0; local_94 < 2; local_94 = local_94 + 1) {
+        for (local_90 = 0; local_90 < 2; local_90 = local_90 + 1) {
+          if (DAT_00104054 != (&DAT_00104054)[(long)local_94 * 2 + (long)local_90]) {
+            puts("[!] Bad flag!");
+            goto LAB_00101e88;
+          }
+        }
+      }
+      for (local_94 = 0; local_94 < 2; local_94 = local_94 + 1) {
+        for (local_90 = 0; local_90 < 2; local_90 = local_90 + 1) {
+          if (DAT_00104058 != (&DAT_00104058)[(long)local_94 * 2 + (long)local_90]) {
+            puts("[!] Bad flag!");
+            goto LAB_00101e88;
+          }
+        }
+      }
+      for (local_94 = 0; local_94 < 2; local_94 = local_94 + 1) {
+        for (local_90 = 0; local_90 < 2; local_90 = local_90 + 1) {
+          if (DAT_0010405c != (&DAT_0010405c)[(long)local_94 * 2 + (long)local_90]) {
+            puts("[!] Bad flag!");
+            goto LAB_00101e88;
+          }
+        }
+      }
+      puts("[*] G00d flag!");
+    }
+    else {
+      puts("[!] The flag is too long...");
+    }
+  }
+LAB_00101e88:
+  if (local_20 != *(long *)(in_FS_OFFSET + 0x28)) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return 0;
+}
+```
 
+## > This is What i Got with my Reverse engineering skill
