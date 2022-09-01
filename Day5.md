@@ -15,6 +15,6 @@
 ```
 > ## 3) Changing a filename with a sequenced textx.
 ```bash
-    for i in *; mv $i 00i%
+    for i in *;do mv $i 00$i
 ```
 
