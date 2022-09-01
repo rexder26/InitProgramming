@@ -29,10 +29,10 @@ ls
 ```
 
 	we couldn't got the process and service, by technical difficulty.
-<img src="/home/rexder/INSA/InitProgramming/MalwareAnalysis/aurorun1.jpg" alt="Autorun picture">
+<img src="MalwareAnalysis/aurorun1.jpg" alt="Autorun picture">
 
 ### 2) Identify persistence folders , registers
-<img src="/home/rexder/INSA/InitProgramming/MalwareAnalysis/autorun.jpg" alt="Autorun picture">
+<img src="MalwareAnalysis/autorun.jpg" alt="Autorun picture">
 
 ## 📍**TOPIC 8 - Malware Analysis and Reverse Engineering**
 
