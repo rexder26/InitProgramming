@@ -39,7 +39,7 @@ ls
 ### *🔰Assignment-1:* Static Malware Analysis
 
 > We Tried to do the challange but the google drive is not allowing as to access the files.
-<img src="/home/rexder/INSA/InitProgramming/MalwareAnalysis/error.png" alt="Error of The file">
+<img src="MalwareAnalysis/error.png" alt="Error of The file">
 
 ### *🔰Assignment-2:* Dynamic Malware Analysis
 
